@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/genDataNN/main.cpp
+stdio.h
+-
+iostream
+-
+stdlib.h
+-
+unistd.h
+-
+signal.h
+-
+string.h
+-
+math.h
+-
+pixy.h
+/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/genDataNN/pixy.h
+

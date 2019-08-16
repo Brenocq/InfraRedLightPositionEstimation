@@ -1,0 +1,3 @@
+/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/rebuild_cache.dir
+/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/hello_pixy.dir
+/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/edit_cache.dir
