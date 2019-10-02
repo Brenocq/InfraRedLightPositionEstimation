@@ -1,8 +1,0 @@
-Removed Pin From Net: NetName=NetP2_14 Pin=Q10-1
-Removed Pin From Net: NetName=NetP2_12 Pin=Q12-1
-Removed Pin From Net: NetName=NetP2_14 Pin=R10-1
-Removed Pin From Net: NetName=NetP2_12 Pin=R12-1
-Added Pin To Net: NetName=NetP2_12 Pin=Q10-1
-Added Pin To Net: NetName=NetP2_14 Pin=Q12-1
-Added Pin To Net: NetName=NetP2_12 Pin=R10-1
-Added Pin To Net: NetName=NetP2_14 Pin=R12-1
