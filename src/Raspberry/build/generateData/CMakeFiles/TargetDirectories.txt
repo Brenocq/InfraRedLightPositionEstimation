@@ -1,3 +1,9 @@
+<<<<<<< Updated upstream
 /home/pi/Projects/LightPositionEstimation/src/Raspberry/build/generateData/CMakeFiles/rebuild_cache.dir
 /home/pi/Projects/LightPositionEstimation/src/Raspberry/build/generateData/CMakeFiles/generateData.dir
 /home/pi/Projects/LightPositionEstimation/src/Raspberry/build/generateData/CMakeFiles/edit_cache.dir
+=======
+/home/breno/Github/LightPositionEstimation/src/Raspberry/build/generateData/CMakeFiles/rebuild_cache.dir
+/home/breno/Github/LightPositionEstimation/src/Raspberry/build/generateData/CMakeFiles/generateData.dir
+/home/breno/Github/LightPositionEstimation/src/Raspberry/build/generateData/CMakeFiles/edit_cache.dir
+>>>>>>> Stashed changes

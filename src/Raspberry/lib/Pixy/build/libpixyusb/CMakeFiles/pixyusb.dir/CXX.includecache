@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/common/src/chirp.cpp
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/common/src/chirp.cpp
 string.h
 -
 new
 -
 chirp.hpp
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/common/src/chirp.hpp
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/common/src/chirp.hpp
 debuglog.h
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/common/src/debuglog.h
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/common/src/debuglog.h
 
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/../../common/inc/chirp.hpp
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/../../common/inc/chirp.hpp
 stdint.h
 -
 stdlib.h
@@ -24,27 +24,27 @@ stdlib.h
 stdarg.h
 -
 link.h
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/../../common/inc/link.h
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/../../common/inc/link.h
 
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/../../common/inc/debuglog.h
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/../../common/inc/debuglog.h
 stdarg.h
 -
 stdio.h
 -
 
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/../../common/inc/link.h
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/../../common/inc/link.h
 stdint.h
 -
 
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/../../common/inc/pixydefs.h
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/../../common/inc/pixydefs.h
 libusb.h
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/../../common/inc/libusb.h
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/../../common/inc/libusb.h
 
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/../../common/inc/pixytypes.h
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/../../common/inc/pixytypes.h
 stdint.h
 -
 
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/include/pixy.h
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/include/pixy.h
 stdint.h
 -
 unistd.h
@@ -52,37 +52,37 @@ unistd.h
 pixydefs.h
 -
 
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/chirpreceiver.cpp
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/chirpreceiver.cpp
 chirpreceiver.hpp
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/chirpreceiver.hpp
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/chirpreceiver.hpp
 
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/chirpreceiver.hpp
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/chirpreceiver.hpp
 chirp.hpp
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/chirp.hpp
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/chirp.hpp
 usblink.h
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/usblink.h
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/usblink.h
 interpreter.hpp
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/interpreter.hpp
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/interpreter.hpp
 
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/interpreter.hpp
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/interpreter.hpp
 
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/pixy.cpp
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/pixy.cpp
 stdio.h
 -
 pixy.h
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/pixy.h
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/pixy.h
 pixyinterpreter.hpp
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/pixyinterpreter.hpp
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/pixyinterpreter.hpp
 
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/pixyinterpreter.cpp
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/pixyinterpreter.cpp
 string.h
 -
 stdio.h
 -
 pixyinterpreter.hpp
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/pixyinterpreter.hpp
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/pixyinterpreter.hpp
 
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/pixyinterpreter.hpp
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/pixyinterpreter.hpp
 vector
 -
 boost/thread.hpp
@@ -90,43 +90,43 @@ boost/thread.hpp
 boost/thread/mutex.hpp
 -
 pixytypes.h
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/pixytypes.h
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/pixytypes.h
 pixy.h
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/pixy.h
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/pixy.h
 usblink.h
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/usblink.h
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/usblink.h
 interpreter.hpp
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/interpreter.hpp
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/interpreter.hpp
 chirpreceiver.hpp
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/chirpreceiver.hpp
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/chirpreceiver.hpp
 
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/usblink.cpp
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/usblink.cpp
 unistd.h
 -
 stdio.h
 -
 usblink.h
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/usblink.h
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/usblink.h
 pixy.h
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/pixy.h
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/pixy.h
 utils/timer.hpp
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/utils/timer.hpp
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/utils/timer.hpp
 debuglog.h
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/debuglog.h
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/debuglog.h
 
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/usblink.h
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/usblink.h
 link.h
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/link.h
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/link.h
 utils/timer.hpp
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/utils/timer.hpp
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/utils/timer.hpp
 libusb.h
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/libusb.h
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/libusb.h
 
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/utils/timer.cpp
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/utils/timer.cpp
 timer.hpp
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/utils/timer.hpp
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/utils/timer.hpp
 
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/utils/timer.hpp
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/utils/timer.hpp
 stdint.h
 -
 string

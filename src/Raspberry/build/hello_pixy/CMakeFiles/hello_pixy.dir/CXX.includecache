@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< Updated upstream
 /home/pi/Projects/LightPositionEstimation/src/Raspberry/src/hello_pixy/hello_pixy.cpp
+=======
+/home/breno/Github/LightPositionEstimation/src/Raspberry/src/hello_pixy/hello_pixy.cpp
+>>>>>>> Stashed changes
 stdio.h
 -
 stdlib.h
@@ -18,5 +22,9 @@ signal.h
 string.h
 -
 pixy.h
+<<<<<<< Updated upstream
 /home/pi/Projects/LightPositionEstimation/src/Raspberry/src/hello_pixy/pixy.h
+=======
+/home/breno/Github/LightPositionEstimation/src/Raspberry/src/hello_pixy/pixy.h
+>>>>>>> Stashed changes
 

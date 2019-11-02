@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/breno/Github/LightPositionEstimation/src/Raspberry/src/generateData/main.cpp
+stdio.h
+-
+iostream
+-
+stdlib.h
+-
+unistd.h
+-
+signal.h
+-
+string.h
+-
+math.h
+-
+pixy.h
+/home/breno/Github/LightPositionEstimation/src/Raspberry/src/generateData/pixy.h
+

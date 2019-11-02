@@ -1,4 +1,5 @@
 Determining if the pthread_create exist failed with the following output:
+<<<<<<< Updated upstream
 Change Dir: /home/pi/Projects/LightPositionEstimation/src/Raspberry/build/generateData/CMakeFiles/CMakeTmp
 
 Run Build Command:"/usr/bin/make" "cmTC_e0c74/fast"
@@ -17,6 +18,28 @@ make[1]: Leaving directory '/home/pi/Projects/LightPositionEstimation/src/Raspbe
 make: *** [Makefile:121: cmTC_e0c74/fast] Error 2
 
 File /home/pi/Projects/LightPositionEstimation/src/Raspberry/build/generateData/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+=======
+Change Dir: /home/breno/Github/LightPositionEstimation/src/Raspberry/build/generateData/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8e189/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8e189.dir/build.make CMakeFiles/cmTC_8e189.dir/build
+make[1]: Entering directory '/home/breno/Github/LightPositionEstimation/src/Raspberry/build/generateData/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8e189.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_8e189.dir/CheckSymbolExists.cxx.o -c /home/breno/Github/LightPositionEstimation/src/Raspberry/build/generateData/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_8e189
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e189.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_8e189.dir/CheckSymbolExists.cxx.o  -o cmTC_8e189 
+CMakeFiles/cmTC_8e189.dir/CheckSymbolExists.cxx.o: In function `main':
+CheckSymbolExists.cxx:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8e189.dir/build.make:97: recipe for target 'cmTC_8e189' failed
+make[1]: *** [cmTC_8e189] Error 1
+make[1]: Leaving directory '/home/breno/Github/LightPositionEstimation/src/Raspberry/build/generateData/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8e189/fast' failed
+make: *** [cmTC_8e189/fast] Error 2
+
+File /home/breno/Github/LightPositionEstimation/src/Raspberry/build/generateData/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+>>>>>>> Stashed changes
 /* */
 #include <pthread.h>
 
@@ -32,6 +55,7 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
+<<<<<<< Updated upstream
 Change Dir: /home/pi/Projects/LightPositionEstimation/src/Raspberry/build/generateData/CMakeFiles/CMakeTmp
 
 Run Build Command:"/usr/bin/make" "cmTC_b7c7f/fast"
@@ -47,5 +71,24 @@ collect2: error: ld returned 1 exit status
 make[1]: *** [CMakeFiles/cmTC_b7c7f.dir/build.make:87: cmTC_b7c7f] Error 1
 make[1]: Leaving directory '/home/pi/Projects/LightPositionEstimation/src/Raspberry/build/generateData/CMakeFiles/CMakeTmp'
 make: *** [Makefile:121: cmTC_b7c7f/fast] Error 2
+=======
+Change Dir: /home/breno/Github/LightPositionEstimation/src/Raspberry/build/generateData/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4fc2d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4fc2d.dir/build.make CMakeFiles/cmTC_4fc2d.dir/build
+make[1]: Entering directory '/home/breno/Github/LightPositionEstimation/src/Raspberry/build/generateData/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4fc2d.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4fc2d.dir/CheckFunctionExists.cxx.o -c /home/breno/Github/LightPositionEstimation/src/Raspberry/build/generateData/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_4fc2d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fc2d.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_4fc2d.dir/CheckFunctionExists.cxx.o  -o cmTC_4fc2d -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4fc2d.dir/build.make:97: recipe for target 'cmTC_4fc2d' failed
+make[1]: *** [cmTC_4fc2d] Error 1
+make[1]: Leaving directory '/home/breno/Github/LightPositionEstimation/src/Raspberry/build/generateData/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4fc2d/fast' failed
+make: *** [cmTC_4fc2d/fast] Error 2
+>>>>>>> Stashed changes
 
 

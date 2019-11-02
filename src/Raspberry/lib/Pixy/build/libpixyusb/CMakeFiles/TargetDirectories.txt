@@ -1,7 +1,7 @@
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/build/libpixyusb/CMakeFiles/install/strip.dir
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/build/libpixyusb/CMakeFiles/edit_cache.dir
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/build/libpixyusb/CMakeFiles/pixyusb.dir
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/build/libpixyusb/CMakeFiles/install.dir
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/build/libpixyusb/CMakeFiles/rebuild_cache.dir
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/build/libpixyusb/CMakeFiles/list_install_components.dir
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/build/libpixyusb/CMakeFiles/install/local.dir
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/build/libpixyusb/CMakeFiles/install/strip.dir
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/build/libpixyusb/CMakeFiles/edit_cache.dir
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/build/libpixyusb/CMakeFiles/install.dir
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/build/libpixyusb/CMakeFiles/rebuild_cache.dir
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/build/libpixyusb/CMakeFiles/list_install_components.dir
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/build/libpixyusb/CMakeFiles/pixyusb.dir
+/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/build/libpixyusb/CMakeFiles/install/local.dir

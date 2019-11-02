@@ -1,22 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/build/libpixyusb/CMakeFiles/CMakeTmp
+Change Dir: /home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/build/libpixyusb/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_01a5c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_01a5c.dir/build.make CMakeFiles/cmTC_01a5c.dir/build
-make[1]: Entering directory '/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/build/libpixyusb/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_01a5c.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_01a5c.dir/CheckSymbolExists.cxx.o -c /home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/build/libpixyusb/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-Linking CXX executable cmTC_01a5c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01a5c.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_01a5c.dir/CheckSymbolExists.cxx.o  -o cmTC_01a5c 
-/usr/bin/ld: CMakeFiles/cmTC_01a5c.dir/CheckSymbolExists.cxx.o: in function `main':
-CheckSymbolExists.cxx:(.text+0x38): undefined reference to `pthread_create'
+Run Build Command:"/usr/bin/make" "cmTC_56570/fast"
+/usr/bin/make -f CMakeFiles/cmTC_56570.dir/build.make CMakeFiles/cmTC_56570.dir/build
+make[1]: Entering directory '/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/build/libpixyusb/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_56570.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_56570.dir/CheckSymbolExists.cxx.o -c /home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/build/libpixyusb/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_56570
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56570.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_56570.dir/CheckSymbolExists.cxx.o  -o cmTC_56570 
+CMakeFiles/cmTC_56570.dir/CheckSymbolExists.cxx.o: In function `main':
+CheckSymbolExists.cxx:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_01a5c.dir/build.make:87: cmTC_01a5c] Error 1
-make[1]: Leaving directory '/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/build/libpixyusb/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_01a5c/fast] Error 2
+CMakeFiles/cmTC_56570.dir/build.make:97: recipe for target 'cmTC_56570' failed
+make[1]: *** [cmTC_56570] Error 1
+make[1]: Leaving directory '/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/build/libpixyusb/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_56570/fast' failed
+make: *** [cmTC_56570/fast] Error 2
 
-File /home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/build/libpixyusb/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/build/libpixyusb/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <pthread.h>
 
@@ -32,20 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/build/libpixyusb/CMakeFiles/CMakeTmp
+Change Dir: /home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/build/libpixyusb/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_908b8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_908b8.dir/build.make CMakeFiles/cmTC_908b8.dir/build
-make[1]: Entering directory '/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/build/libpixyusb/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_908b8.dir/CheckFunctionExists.cxx.o
-/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_908b8.dir/CheckFunctionExists.cxx.o -c /home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/build/libpixyusb/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
-Linking CXX executable cmTC_908b8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_908b8.dir/link.txt --verbose=1
-/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_908b8.dir/CheckFunctionExists.cxx.o  -o cmTC_908b8 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_20458/fast"
+/usr/bin/make -f CMakeFiles/cmTC_20458.dir/build.make CMakeFiles/cmTC_20458.dir/build
+make[1]: Entering directory '/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/build/libpixyusb/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_20458.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_20458.dir/CheckFunctionExists.cxx.o -c /home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/build/libpixyusb/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_20458
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20458.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_20458.dir/CheckFunctionExists.cxx.o  -o cmTC_20458 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_908b8.dir/build.make:87: cmTC_908b8] Error 1
-make[1]: Leaving directory '/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/build/libpixyusb/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_908b8/fast] Error 2
+CMakeFiles/cmTC_20458.dir/build.make:97: recipe for target 'cmTC_20458' failed
+make[1]: *** [cmTC_20458] Error 1
+make[1]: Leaving directory '/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/build/libpixyusb/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_20458/fast' failed
+make: *** [cmTC_20458/fast] Error 2
 
 

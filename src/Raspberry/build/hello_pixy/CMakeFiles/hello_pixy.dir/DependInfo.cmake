@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+<<<<<<< Updated upstream
   "/home/pi/Projects/LightPositionEstimation/src/Raspberry/src/hello_pixy/hello_pixy.cpp" "/home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/hello_pixy.dir/hello_pixy.cpp.o"
+=======
+  "/home/breno/Github/LightPositionEstimation/src/Raspberry/src/hello_pixy/hello_pixy.cpp" "/home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/hello_pixy.dir/hello_pixy.cpp.o"
+>>>>>>> Stashed changes
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,9 +19,15 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+<<<<<<< Updated upstream
   "/home/pi/Projects/LightPositionEstimation/src/Raspberry/src/hello_pixy/src"
   "/home/pi/Projects/LightPositionEstimation/src/Raspberry/src/hello_pixy/include"
   "/home/pi/Projects/LightPositionEstimation/src/Raspberry/src/hello_pixy/../../lib/Pixy/src/common"
+=======
+  "/home/breno/Github/LightPositionEstimation/src/Raspberry/src/hello_pixy/src"
+  "/home/breno/Github/LightPositionEstimation/src/Raspberry/src/hello_pixy/include"
+  "/home/breno/Github/LightPositionEstimation/src/Raspberry/src/hello_pixy/../../lib/Pixy/src/common"
+>>>>>>> Stashed changes
   "/usr/include/libusb-1.0"
   )
 

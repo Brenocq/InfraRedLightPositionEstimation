@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/common/src/chirp.cpp" "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/build/libpixyusb/CMakeFiles/pixyusb.dir/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/common/src/chirp.cpp.o"
-  "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/chirpreceiver.cpp" "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/build/libpixyusb/CMakeFiles/pixyusb.dir/src/chirpreceiver.cpp.o"
-  "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/pixy.cpp" "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/build/libpixyusb/CMakeFiles/pixyusb.dir/src/pixy.cpp.o"
-  "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/pixyinterpreter.cpp" "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/build/libpixyusb/CMakeFiles/pixyusb.dir/src/pixyinterpreter.cpp.o"
-  "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/usblink.cpp" "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/build/libpixyusb/CMakeFiles/pixyusb.dir/src/usblink.cpp.o"
-  "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/utils/timer.cpp" "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/build/libpixyusb/CMakeFiles/pixyusb.dir/src/utils/timer.cpp.o"
+  "/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/common/src/chirp.cpp" "/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/build/libpixyusb/CMakeFiles/pixyusb.dir/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/common/src/chirp.cpp.o"
+  "/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/chirpreceiver.cpp" "/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/build/libpixyusb/CMakeFiles/pixyusb.dir/src/chirpreceiver.cpp.o"
+  "/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/pixy.cpp" "/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/build/libpixyusb/CMakeFiles/pixyusb.dir/src/pixy.cpp.o"
+  "/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/pixyinterpreter.cpp" "/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/build/libpixyusb/CMakeFiles/pixyusb.dir/src/pixyinterpreter.cpp.o"
+  "/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/usblink.cpp" "/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/build/libpixyusb/CMakeFiles/pixyusb.dir/src/usblink.cpp.o"
+  "/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/utils/timer.cpp" "/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/build/libpixyusb/CMakeFiles/pixyusb.dir/src/utils/timer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -21,10 +21,10 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src"
-  "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/src/util"
-  "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/include"
-  "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/../../common/inc"
+  "/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src"
+  "/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/src/util"
+  "/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/include"
+  "/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/../../common/inc"
   "/usr/include/libusb-1.0"
   )
 

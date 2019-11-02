@@ -15,3 +15,24 @@ The training will take place using a camera to detect the relative position of t
 ### First experiment: Visible light
 
 #### Work in progress...
+
+
+### Installation
+```
+sudo apt-get install libusb-1.0-0.dev
+sudo apt-get install libboost-all-dev
+sudo apt-get install cmake
+
+
+cd LightPositionEstimation/src/Raspberry/lib/Pixy/
+rm -r build
+cd scripts
+./build_libpixyusb.sh
+./install_libpixyusb.sh
+
+cd ../../../
+rm -r build
+./make.sh
+```
+
+[Pixymon](https://docs.pixycam.com/wiki/doku.php?id=wiki:v1:installing_pixymon_on_linux)

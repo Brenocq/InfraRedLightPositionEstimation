@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 # Install script for directory: /home/pi/Projects/LightPositionEstimation/src/Raspberry/src/generateData
+=======
+# Install script for directory: /home/breno/Github/LightPositionEstimation/src/Raspberry/src/generateData
+>>>>>>> Stashed changes
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +49,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< Updated upstream
 file(WRITE "/home/pi/Projects/LightPositionEstimation/src/Raspberry/build/generateData/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "/home/breno/Github/LightPositionEstimation/src/Raspberry/build/generateData/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> Stashed changes
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

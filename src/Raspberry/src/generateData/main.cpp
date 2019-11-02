@@ -12,6 +12,7 @@
 #include <wiringSerial.h>
 using namespace std;
 
+#define clear() printf("\033[H\033[J")
 #define BLOCK_BUFFER_SIZE    25
 // Pixy Block buffer
 struct Block blocks[BLOCK_BUFFER_SIZE];
@@ -64,12 +65,12 @@ int main(int argc, char * argv[])
 
 	printf("Detecting blocks...\n");
 
-	
+
 	while(run_flag)
 	{
 		if(getchar()){
 		// Wait for new blocks to be available
-		while(!pixy_blocks_are_new() && run_flag); 
+		while(!pixy_blocks_are_new() && run_flag);
 
 		// Get blocks from Pixy
 		blocks_copied = pixy_get_blocks(BLOCK_BUFFER_SIZE, &blocks[0]);
@@ -88,16 +89,13 @@ int main(int argc, char * argv[])
 			light.y = blocks[1].y-100;
 			if(distToCenter(light)<distToCenter(robot)){
 				swapPoints(&light, &robot);
-			};
-			// Print positions
-			/*printf("Robot: x:%d y:%d\n", robot.x, robot.y);
-			printf("Light: x:%d y:%d\n", light.x, light.y);*/
-			printf("\n\n\n");
+			}
 		}
 
 		int camMaxX = 320;
 		int camMaxY = 200;
 		int resolution = 7;
+		clear();// Clear screen
 		// Print camera image
 		/*for(	int y=-camMaxY/2 ; y<camMaxY/2 ; y+=resolution){
 			for(int x=-camMaxX/2 ; x<camMaxX/2 ; x+=resolution){
@@ -119,6 +117,10 @@ int main(int argc, char * argv[])
 		serialPrintf(fd, "(%d, %d)\n",light.x,light.y);
 		//serialPrintf(fd, "%d %d\n",light.x,light.y);
 		}
+
+		// Print relative positions
+		printf("Robot: (%d, %d)\n", 0, 0);
+		printf("Light: (%d, %d)\n", light.x-robot.x, light.y-robot.y);
 	}
 	pixy_close();
 }

@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb
+# Install script for directory: /home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,15 +38,15 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/build/libpixyusb/libpixyusb.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/build/libpixyusb/libpixyusb.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/include/pixy.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/include/pixy.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/host/libpixyusb/../../common/inc/pixydefs.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/host/libpixyusb/../../common/inc/pixydefs.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/build/libpixyusb/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/build/libpixyusb/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

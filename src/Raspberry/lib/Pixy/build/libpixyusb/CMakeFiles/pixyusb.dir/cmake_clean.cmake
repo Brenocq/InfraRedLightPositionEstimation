@@ -4,7 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/pixyusb.dir/src/pixy.cpp.o"
   "CMakeFiles/pixyusb.dir/src/usblink.cpp.o"
   "CMakeFiles/pixyusb.dir/src/utils/timer.cpp.o"
-  "CMakeFiles/pixyusb.dir/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/lib/pixy/src/common/src/chirp.cpp.o"
+  "CMakeFiles/pixyusb.dir/home/breno/Github/LightPositionEstimation/src/Raspberry/lib/Pixy/src/common/src/chirp.cpp.o"
   "libpixyusb.pdb"
   "libpixyusb.a"
 )

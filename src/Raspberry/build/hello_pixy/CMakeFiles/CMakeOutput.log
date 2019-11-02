@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 The system is: Linux - 4.19.75-v7+ - armv7l
+=======
+The system is: Linux - 5.0.0-31-generic - x86_64
+>>>>>>> Stashed changes
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
 Build flags: 
@@ -10,6 +14,7 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
+<<<<<<< Updated upstream
 The CXX compiler identification is GNU, found in "/home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/3.13.4/CompilerIdCXX/a.out"
 
 Determining if the CXX compiler works passed with the following output:
@@ -37,12 +42,44 @@ Building CXX object CMakeFiles/cmTC_d0f62.dir/CMakeCXXCompilerABI.cpp.o
 Linking CXX executable cmTC_d0f62
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0f62.dir/link.txt --verbose=1
 /usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_d0f62.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d0f62 
+=======
+The CXX compiler identification is GNU, found in "/home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c2d0e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c2d0e.dir/build.make CMakeFiles/cmTC_c2d0e.dir/build
+make[1]: Entering directory '/home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c2d0e.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_c2d0e.dir/testCXXCompiler.cxx.o -c /home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_c2d0e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2d0e.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_c2d0e.dir/testCXXCompiler.cxx.o  -o cmTC_c2d0e 
+make[1]: Leaving directory '/home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_38fd1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_38fd1.dir/build.make CMakeFiles/cmTC_38fd1.dir/build
+make[1]: Entering directory '/home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_38fd1.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_38fd1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_38fd1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38fd1.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_38fd1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_38fd1 
+>>>>>>> Stashed changes
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper
-Target: arm-linux-gnueabihf
-Configured with: ../src/configure -v --with-pkgversion='Raspbian 8.3.0-6+rpi1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=arm-linux-gnueabihf- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-sjlj-exceptions --with-arch=armv6 --with-fpu=vfp --with-float=hard --disable-werror --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04.1' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
+<<<<<<< Updated upstream
 gcc version 8.3.0 (Raspbian 8.3.0-6+rpi1) 
 COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/
 LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
@@ -50,10 +87,20 @@ COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d0f62' '-shared-libgcc'  '-mfloa
  /usr/lib/gcc/arm-linux-gnueabihf/8/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbIfr8F.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_d0f62 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/8 -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_d0f62.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o
 COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d0f62' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp'
 make[1]: Leaving directory '/home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
+=======
+gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_38fd1' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrlZHIB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_38fd1 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_38fd1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_38fd1' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
+>>>>>>> Stashed changes
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+<<<<<<< Updated upstream
   ignore line: [Change Dir: /home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp]
   ignore line: []
   ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d0f62/fast"]
@@ -64,12 +111,27 @@ Parsed CXX implicit link information from above output:
   ignore line: [Linking CXX executable cmTC_d0f62]
   ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0f62.dir/link.txt --verbose=1]
   ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_d0f62.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d0f62 ]
+=======
+  ignore line: [Change Dir: /home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_38fd1/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_38fd1.dir/build.make CMakeFiles/cmTC_38fd1.dir/build]
+  ignore line: [make[1]: Entering directory '/home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_38fd1.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_38fd1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_38fd1]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38fd1.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_38fd1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_38fd1 ]
+>>>>>>> Stashed changes
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper]
-  ignore line: [Target: arm-linux-gnueabihf]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Raspbian 8.3.0-6+rpi1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=arm-linux-gnueabihf- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-sjlj-exceptions --with-arch=armv6 --with-fpu=vfp --with-float=hard --disable-werror --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04.1' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
+<<<<<<< Updated upstream
   ignore line: [gcc version 8.3.0 (Raspbian 8.3.0-6+rpi1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
@@ -80,21 +142,38 @@ Parsed CXX implicit link information from above output:
     arg [/usr/lib/gcc/arm-linux-gnueabihf/8/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper] ==> ignore
     arg [-plugin-opt=-fresolution=/tmp/ccbIfr8F.res] ==> ignore
+=======
+  ignore line: [gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_38fd1' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrlZHIB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_38fd1 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_38fd1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccrlZHIB.res] ==> ignore
+>>>>>>> Stashed changes
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-dynamic-linker] ==> ignore
-    arg [/lib/ld-linux-armhf.so.3] ==> ignore
-    arg [-X] ==> ignore
-    arg [--hash-style=gnu] ==> ignore
-    arg [-m] ==> ignore
-    arg [armelf_linux_eabi] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
+<<<<<<< Updated upstream
     arg [cmTC_d0f62] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o] ==> ignore
@@ -105,6 +184,21 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
     arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
     arg [CMakeFiles/cmTC_d0f62.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+=======
+    arg [cmTC_38fd1] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_38fd1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+>>>>>>> Stashed changes
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -112,20 +206,24 @@ Parsed CXX implicit link information from above output:
     arg [-lc] ==> lib [c]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [/usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o] ==> ignore
-    arg [/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o] ==> ignore
-  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/8] ==> [/usr/lib/gcc/arm-linux-gnueabihf/8]
-  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
-  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/8/../../..] ==> [/usr/lib]
-  collapse library dir [/lib/arm-linux-gnueabihf] ==> [/lib/arm-linux-gnueabihf]
-  collapse library dir [/usr/lib/arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
   implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
-  implicit dirs: [/usr/lib/gcc/arm-linux-gnueabihf/8;/usr/lib/arm-linux-gnueabihf;/usr/lib;/lib/arm-linux-gnueabihf]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
 
 
+<<<<<<< Updated upstream
 Detecting CXX [-std=c++2a] compiler features compiled with the following output:
 Change Dir: /home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp
 
@@ -211,6 +309,20 @@ Linking CXX executable cmTC_0bbed
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bbed.dir/link.txt --verbose=1
 /usr/bin/c++       -rdynamic CMakeFiles/cmTC_0bbed.dir/feature_tests.cxx.o  -o cmTC_0bbed 
 make[1]: Leaving directory '/home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
+=======
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_028ad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_028ad.dir/build.make CMakeFiles/cmTC_028ad.dir/build
+make[1]: Entering directory '/home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_028ad.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_028ad.dir/feature_tests.cxx.o -c /home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_028ad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_028ad.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_028ad.dir/feature_tests.cxx.o  -o cmTC_028ad 
+make[1]: Leaving directory '/home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
+>>>>>>> Stashed changes
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -273,6 +385,7 @@ make[1]: Leaving directory '/home/pi/Projects/LightPositionEstimation/src/Raspbe
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
+<<<<<<< Updated upstream
 Change Dir: /home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp
 
 Run Build Command:"/usr/bin/make" "cmTC_55d1c/fast"
@@ -284,6 +397,19 @@ Linking CXX executable cmTC_55d1c
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55d1c.dir/link.txt --verbose=1
 /usr/bin/c++       -rdynamic CMakeFiles/cmTC_55d1c.dir/feature_tests.cxx.o  -o cmTC_55d1c 
 make[1]: Leaving directory '/home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
+=======
+Change Dir: /home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f800a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f800a.dir/build.make CMakeFiles/cmTC_f800a.dir/build
+make[1]: Entering directory '/home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f800a.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_f800a.dir/feature_tests.cxx.o -c /home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f800a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f800a.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f800a.dir/feature_tests.cxx.o  -o cmTC_f800a 
+make[1]: Leaving directory '/home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
+>>>>>>> Stashed changes
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -346,6 +472,7 @@ make[1]: Leaving directory '/home/pi/Projects/LightPositionEstimation/src/Raspbe
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
+<<<<<<< Updated upstream
 Change Dir: /home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp
 
 Run Build Command:"/usr/bin/make" "cmTC_c3b75/fast"
@@ -357,6 +484,19 @@ Linking CXX executable cmTC_c3b75
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3b75.dir/link.txt --verbose=1
 /usr/bin/c++       -rdynamic CMakeFiles/cmTC_c3b75.dir/feature_tests.cxx.o  -o cmTC_c3b75 
 make[1]: Leaving directory '/home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
+=======
+Change Dir: /home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1455c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1455c.dir/build.make CMakeFiles/cmTC_1455c.dir/build
+make[1]: Entering directory '/home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1455c.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_1455c.dir/feature_tests.cxx.o -c /home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1455c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1455c.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_1455c.dir/feature_tests.cxx.o  -o cmTC_1455c 
+make[1]: Leaving directory '/home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
+>>>>>>> Stashed changes
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -419,6 +559,7 @@ make[1]: Leaving directory '/home/pi/Projects/LightPositionEstimation/src/Raspbe
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
+<<<<<<< Updated upstream
 Change Dir: /home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp
 
 Run Build Command:"/usr/bin/make" "cmTC_bed9b/fast"
@@ -430,6 +571,19 @@ Linking CXX executable cmTC_bed9b
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bed9b.dir/link.txt --verbose=1
 /usr/bin/c++       -rdynamic CMakeFiles/cmTC_bed9b.dir/feature_tests.cxx.o  -o cmTC_bed9b 
 make[1]: Leaving directory '/home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
+=======
+Change Dir: /home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35530/fast"
+/usr/bin/make -f CMakeFiles/cmTC_35530.dir/build.make CMakeFiles/cmTC_35530.dir/build
+make[1]: Entering directory '/home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_35530.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_35530.dir/feature_tests.cxx.o -c /home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_35530
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35530.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_35530.dir/feature_tests.cxx.o  -o cmTC_35530 
+make[1]: Leaving directory '/home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
+>>>>>>> Stashed changes
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -490,6 +644,7 @@ make[1]: Leaving directory '/home/pi/Projects/LightPositionEstimation/src/Raspbe
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
+<<<<<<< Updated upstream
 Change Dir: /home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp
 
 Run Build Command:"/usr/bin/make" "cmTC_85168/fast"
@@ -515,5 +670,32 @@ Linking CXX executable cmTC_fa07a
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa07a.dir/link.txt --verbose=1
 /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_fa07a.dir/CheckFunctionExists.cxx.o  -o cmTC_fa07a -lpthread 
 make[1]: Leaving directory '/home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
+=======
+Change Dir: /home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_800b4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_800b4.dir/build.make CMakeFiles/cmTC_800b4.dir/build
+make[1]: Entering directory '/home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_800b4.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_800b4.dir/CheckIncludeFile.cxx.o -c /home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_800b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_800b4.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_800b4.dir/CheckIncludeFile.cxx.o  -o cmTC_800b4 
+make[1]: Leaving directory '/home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dbed1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dbed1.dir/build.make CMakeFiles/cmTC_dbed1.dir/build
+make[1]: Entering directory '/home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dbed1.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_dbed1.dir/CheckFunctionExists.cxx.o -c /home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_dbed1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbed1.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_dbed1.dir/CheckFunctionExists.cxx.o  -o cmTC_dbed1 -lpthread 
+make[1]: Leaving directory '/home/breno/Github/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
+>>>>>>> Stashed changes
 
 
