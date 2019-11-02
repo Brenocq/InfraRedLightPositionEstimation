@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp
+Change Dir: /home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ba93d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ba93d.dir/build.make CMakeFiles/cmTC_ba93d.dir/build
-make[1]: Entering directory '/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ba93d.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_ba93d.dir/CheckSymbolExists.cxx.o -c /home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-Linking CXX executable cmTC_ba93d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba93d.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_ba93d.dir/CheckSymbolExists.cxx.o  -o cmTC_ba93d 
-/usr/bin/ld: CMakeFiles/cmTC_ba93d.dir/CheckSymbolExists.cxx.o: in function `main':
+Run Build Command:"/usr/bin/make" "cmTC_a51b8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a51b8.dir/build.make CMakeFiles/cmTC_a51b8.dir/build
+make[1]: Entering directory '/home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a51b8.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_a51b8.dir/CheckSymbolExists.cxx.o -c /home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_a51b8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a51b8.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_a51b8.dir/CheckSymbolExists.cxx.o  -o cmTC_a51b8 
+/usr/bin/ld: CMakeFiles/cmTC_a51b8.dir/CheckSymbolExists.cxx.o: in function `main':
 CheckSymbolExists.cxx:(.text+0x38): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_ba93d.dir/build.make:87: cmTC_ba93d] Error 1
-make[1]: Leaving directory '/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_ba93d/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_a51b8.dir/build.make:87: cmTC_a51b8] Error 1
+make[1]: Leaving directory '/home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_a51b8/fast] Error 2
 
-File /home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <pthread.h>
 
@@ -32,20 +32,20 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp
+Change Dir: /home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_92bf3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_92bf3.dir/build.make CMakeFiles/cmTC_92bf3.dir/build
-make[1]: Entering directory '/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_92bf3.dir/CheckFunctionExists.cxx.o
-/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_92bf3.dir/CheckFunctionExists.cxx.o -c /home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
-Linking CXX executable cmTC_92bf3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92bf3.dir/link.txt --verbose=1
-/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_92bf3.dir/CheckFunctionExists.cxx.o  -o cmTC_92bf3 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_d7b21/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d7b21.dir/build.make CMakeFiles/cmTC_d7b21.dir/build
+make[1]: Entering directory '/home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d7b21.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d7b21.dir/CheckFunctionExists.cxx.o -c /home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_d7b21
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7b21.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_d7b21.dir/CheckFunctionExists.cxx.o  -o cmTC_d7b21 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_92bf3.dir/build.make:87: cmTC_92bf3] Error 1
-make[1]: Leaving directory '/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_92bf3/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_d7b21.dir/build.make:87: cmTC_d7b21] Error 1
+make[1]: Leaving directory '/home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d7b21/fast] Error 2
 
 

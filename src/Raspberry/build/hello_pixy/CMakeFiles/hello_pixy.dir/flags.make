@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -D__LIBPIXY_VERSION__=\"0.4\"
 
-CXX_INCLUDES = -I/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/hello_pixy/src -I/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/hello_pixy/include -I/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/hello_pixy/../../lib/Pixy/src/common -I/usr/include/libusb-1.0 
+CXX_INCLUDES = -I/home/pi/Projects/LightPositionEstimation/src/Raspberry/src/hello_pixy/src -I/home/pi/Projects/LightPositionEstimation/src/Raspberry/src/hello_pixy/include -I/home/pi/Projects/LightPositionEstimation/src/Raspberry/src/hello_pixy/../../lib/Pixy/src/common -I/usr/include/libusb-1.0 
 

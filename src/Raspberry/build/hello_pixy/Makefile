@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/hello_pixy
+CMAKE_SOURCE_DIR = /home/pi/Projects/LightPositionEstimation/src/Raspberry/src/hello_pixy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/hello_pixy
+CMAKE_BINARY_DIR = /home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles /home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles /home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

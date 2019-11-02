@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/hello_pixy
+# Install script for directory: /home/pi/Projects/LightPositionEstimation/src/Raspberry/src/hello_pixy
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/hello_pixy/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

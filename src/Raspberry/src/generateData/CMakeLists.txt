@@ -15,6 +15,7 @@ find_package ( Boost 1.49 COMPONENTS thread system chrono REQUIRED)
 
 target_link_libraries (generateData ${Boost_LIBRARIES})
 target_link_libraries (generateData ${LIBUSB_1_LIBRARY})
+target_link_libraries (generateData -lwiringPi)
 
 file(STRINGS "cmake/VERSION" LIBPIXY_VERSION)
 add_definitions(-D__LIBPIXY_VERSION__="${LIBPIXY_VERSION}")

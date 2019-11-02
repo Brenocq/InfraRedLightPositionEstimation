@@ -5,7 +5,11 @@
 #include <signal.h>
 #include <string.h>
 #include <math.h>
+#include <cstdlib>
+
 #include "pixy.h"
+#include <wiringPi.h>
+#include <wiringSerial.h>
 using namespace std;
 
 #define BLOCK_BUFFER_SIZE    25
@@ -24,9 +28,28 @@ void swapPoints(point *p1, point *p2);
 
 int main(int argc, char * argv[])
 {
+	float delay_val;
+	if (argc == 1)
+	{
+		delay_val = 100;
+		printf("Using default delay value of %f milisecond(s) !\n", delay_val);
+	}else
+	{
+		delay_val = atof(argv[1]);
+		printf("Using default delay of %f milisecond(s) !\n", delay_val);
+	}
+
 	int blocks_copied, pixy_init_status;
 	point robot,light;
+	//---------- Initiate Serial ----------//
+	int fd;
+	if((fd = serialOpen ("/dev/ttyS0", 115200)) < 0 )
+	/*device must be replaced by the serial port in the RPi*/
+		perror("device not opened \n");
+	if ( wiringPiSetup () < 0 )
+		perror("WiringPiSetup problem \n ");
 
+	//---------- Initiate Pixy ----------//
 	signal(SIGINT, handle_SIGINT);// To catch CTRL+C
 	printf("libpixyusb Version: %s\n", __LIBPIXY_VERSION__);
 	pixy_init_status = pixy_init();// Connect to Pixy
@@ -44,6 +67,7 @@ int main(int argc, char * argv[])
 	
 	while(run_flag)
 	{
+		if(getchar()){
 		// Wait for new blocks to be available
 		while(!pixy_blocks_are_new() && run_flag); 
 
@@ -75,7 +99,7 @@ int main(int argc, char * argv[])
 		int camMaxY = 200;
 		int resolution = 7;
 		// Print camera image
-		for(	int y=-camMaxY/2 ; y<camMaxY/2 ; y+=resolution){
+		/*for(	int y=-camMaxY/2 ; y<camMaxY/2 ; y+=resolution){
 			for(int x=-camMaxX/2 ; x<camMaxX/2 ; x+=resolution){
 				if(abs(robot.x-x)<=resolution*1.5 && abs(robot.y-y)<=resolution*1.5){
 					cout<<"*";
@@ -86,6 +110,14 @@ int main(int argc, char * argv[])
 				}
 			}
 		cout<<endl;
+		}*/
+		//serialPutchar(fd, '.');
+		//delay(delay_val);
+		//printf("Robot: (%d, %d)\n",0,0);
+		//serialPrintf(fd, "Robot: (%d, %d)\n",0,0);
+		printf("Light: (%d, %d)\n",light.x,light.y);
+		serialPrintf(fd, "(%d, %d)\n",light.x,light.y);
+		//serialPrintf(fd, "%d %d\n",light.x,light.y);
 		}
 	}
 	pixy_close();

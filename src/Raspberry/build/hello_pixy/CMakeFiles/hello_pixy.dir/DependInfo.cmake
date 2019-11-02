@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/hello_pixy/hello_pixy.cpp" "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/hello_pixy.dir/hello_pixy.cpp.o"
+  "/home/pi/Projects/LightPositionEstimation/src/Raspberry/src/hello_pixy/hello_pixy.cpp" "/home/pi/Projects/LightPositionEstimation/src/Raspberry/build/hello_pixy/CMakeFiles/hello_pixy.dir/hello_pixy.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,9 +15,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/hello_pixy/src"
-  "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/hello_pixy/include"
-  "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/hello_pixy/../../lib/Pixy/src/common"
+  "/home/pi/Projects/LightPositionEstimation/src/Raspberry/src/hello_pixy/src"
+  "/home/pi/Projects/LightPositionEstimation/src/Raspberry/src/hello_pixy/include"
+  "/home/pi/Projects/LightPositionEstimation/src/Raspberry/src/hello_pixy/../../lib/Pixy/src/common"
   "/usr/include/libusb-1.0"
   )
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/hello_pixy/hello_pixy.cpp
+/home/pi/Projects/LightPositionEstimation/src/Raspberry/src/hello_pixy/hello_pixy.cpp
 stdio.h
 -
 stdlib.h
@@ -18,5 +18,5 @@ signal.h
 string.h
 -
 pixy.h
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/hello_pixy/pixy.h
+/home/pi/Projects/LightPositionEstimation/src/Raspberry/src/hello_pixy/pixy.h
 

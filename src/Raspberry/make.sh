@@ -6,6 +6,8 @@ mkdir $TARGET_BUILD_FOLDER
 mkdir $TARGET_BUILD_FOLDER/hello_pixy
 mkdir $TARGET_BUILD_FOLDER/generateData
 
+echo $(pwd)
+
 cd $TARGET_BUILD_FOLDER/hello_pixy
 cmake ../../src/hello_pixy
 make

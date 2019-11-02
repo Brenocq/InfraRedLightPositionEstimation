@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/generateData.dir/main.cpp.o  -o generateData -lpixyusb -lboost_thread -lpthread -lboost_system -lboost_chrono -lboost_date_time -lboost_atomic -lusb-1.0 

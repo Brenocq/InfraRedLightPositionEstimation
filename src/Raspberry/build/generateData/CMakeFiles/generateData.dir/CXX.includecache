@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/generateData/main.cpp
+/home/pi/Projects/LightPositionEstimation/src/Raspberry/src/generateData/main.cpp
 stdio.h
 -
 iostream
@@ -21,6 +21,12 @@ string.h
 -
 math.h
 -
+cstdlib
+-
 pixy.h
-/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/generateData/pixy.h
+/home/pi/Projects/LightPositionEstimation/src/Raspberry/src/generateData/pixy.h
+wiringPi.h
+-
+wiringSerial.h
+-
 
