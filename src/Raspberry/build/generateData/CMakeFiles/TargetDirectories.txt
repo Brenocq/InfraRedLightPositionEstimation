@@ -1,0 +1,3 @@
+/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/generateData/CMakeFiles/rebuild_cache.dir
+/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/generateData/CMakeFiles/generateData.dir
+/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/generateData/CMakeFiles/edit_cache.dir

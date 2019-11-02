@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/genDataNN/main.cpp" "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/genDataNN/CMakeFiles/genDataNN.dir/main.cpp.o"
+  "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/generateData/main.cpp" "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/generateData/CMakeFiles/generateData.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,9 +15,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/genDataNN/src"
-  "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/genDataNN/include"
-  "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/genDataNN/../../lib/Pixy/src/common"
+  "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/generateData/src"
+  "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/generateData/include"
+  "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/generateData/../../lib/Pixy/src/common"
   "/usr/include/libusb-1.0"
   )
 

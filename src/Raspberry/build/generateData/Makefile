@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/genDataNN
+CMAKE_SOURCE_DIR = /home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/generateData
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/genDataNN
+CMAKE_BINARY_DIR = /home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/generateData
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/genDataNN/CMakeFiles /home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/genDataNN/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/generateData/CMakeFiles /home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/generateData/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/genDataNN/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/build/generateData/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named genDataNN
+# Target rules for targets named generateData
 
 # Build rule for target.
-genDataNN: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 genDataNN
-.PHONY : genDataNN
+generateData: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 generateData
+.PHONY : generateData
 
 # fast build rule for target.
-genDataNN/fast:
-	$(MAKE) -f CMakeFiles/genDataNN.dir/build.make CMakeFiles/genDataNN.dir/build
-.PHONY : genDataNN/fast
+generateData/fast:
+	$(MAKE) -f CMakeFiles/generateData.dir/build.make CMakeFiles/generateData.dir/build
+.PHONY : generateData/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/genDataNN.dir/build.make CMakeFiles/genDataNN.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/generateData.dir/build.make CMakeFiles/generateData.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/genDataNN.dir/build.make CMakeFiles/genDataNN.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/generateData.dir/build.make CMakeFiles/generateData.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/genDataNN.dir/build.make CMakeFiles/genDataNN.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/generateData.dir/build.make CMakeFiles/generateData.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -157,7 +157,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... genDataNN"
+	@echo "... generateData"
 	@echo "... edit_cache"
 	@echo "... main.o"
 	@echo "... main.i"

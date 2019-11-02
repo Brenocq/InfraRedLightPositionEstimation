@@ -9,9 +9,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "CMakeFiles/3.13.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.13.4/CMakeSystem.cmake"
-  "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/genDataNN/CMakeLists.txt"
-  "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/genDataNN/cmake/Findlibpixyusb.cmake"
-  "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/genDataNN/cmake/Findlibusb-1.0.cmake"
+  "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/generateData/CMakeLists.txt"
+  "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/generateData/cmake/Findlibpixyusb.cmake"
+  "/home/pi/Github/InfraRedLightPositionEstimation/src/Raspberry/src/generateData/cmake/Findlibusb-1.0.cmake"
   "/usr/share/cmake-3.13/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.13/Modules/CMakeCommonLanguageInclude.cmake"
   "/usr/share/cmake-3.13/Modules/CMakeGenericSystem.cmake"
@@ -48,5 +48,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/genDataNN.dir/DependInfo.cmake"
+  "CMakeFiles/generateData.dir/DependInfo.cmake"
   )
