@@ -13,7 +13,7 @@ The training will take place using a camera to detect the relative position of t
 
 ## Experiments
 ### First experiment: Visible light
-
+![first_plot](brenocq.github.com/LightPositionEstimation/assets/image.jpg)
 #### Work in progress...
 
 
